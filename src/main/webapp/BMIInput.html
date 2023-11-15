@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/ChungValidChecker.js"></script>
+<script type="text/javascript" src="js/Nov14_check.js"></script>
+</head>
+<body>
+	<form action="HomeController" method="post" enctype="multipart/form-data" name="bmiForm"
+		onsubmit="return bmiCheck();">
+		<table border="1">
+			<tr>
+				<th colspan="2">BMI 검사</th>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input name="name" placeholder="필수" maxlength="10" autofocus="autofocus" autocomplete="off"></td>
+			</tr>
+			<tr>
+				<td>키</td>
+				<td><input name="height" placeholder="cm" autocomplete="off"></td>
+			</tr>
+			<tr>
+				<td>몸무게</td>
+				<td><input name="weight" placeholder="kg" autocomplete="off"></td>
+			</tr>
+			<tr>
+				<td>사진</td>
+				<td><input name="photo" type="file"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button>검사</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

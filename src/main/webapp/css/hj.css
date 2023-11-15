@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "n";
+	src: url("nanum.ttf");
+}
+
+body {
+	background-image: url("../image/role.jpg");
+	background-size: cover;
+	font-family: "n";
+}
+
+table #hjTable {
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	border: #E9FFE0 solid 4px;
+	border-radius: 20px;
+}
+
+#hjTable .td1 {
+	background-color: white;
+	font-size: 30pt;
+}
+
+#hjTable .tdMain {
+	background-color: white;
+	font-size: 40pt;
+	color: skyblue;
+}
+
+#hjTable td {
+	border-radius: 20px;
+}

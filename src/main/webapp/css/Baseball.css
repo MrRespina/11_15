@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+	
+	font-family: "n";
+	src: url("nanum.ttf");
+	
+}
+
+body{
+	
+	font-family: "n";
+	font-size: 30px;
+	text-shadow: 2px 2px 2px gray;
+	
+}
+
+#mainT{
+	
+	width:300px;
+	height:500px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	background-color: rgb(128, 255, 128);
+	
+}
+
+#mainT input{
+	
+	font-family:"n";
+	height:50px;
+	width:180px;
+	text-align: right;
+	background-color:white;
+	border-radius: 3px;
+	font-size:25px;
+	color:black;
+	padding-right: 15px;
+	
+}
+
+#mainT input::placeholder{
+	
+	font-family:"n";
+	color:gray;
+	font-size:25px;
+	
+	
+}
+
+#mainTd{
+	
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	
+}
+
+#btn{
+	
+	width:180px;
+	height:30px;
+	border-radius: 3px;
+}
+
+.subTd{
+	
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+
+.end{
+	
+	font-family:"n";
+	text-align: center;
+	font-size:25px;
+	color:white;
+	
+}
+
+ /* 변수 저장용으로 사용할 클래스 */
+.hidden {
+
+    display:none;
+
+}
+
